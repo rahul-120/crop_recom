@@ -21,6 +21,9 @@ It helps farmers or users decide the most suitable crop to grow based on soil nu
 
 ---
 
+<img width="424" height="339" alt="image" src="https://github.com/user-attachments/assets/cb7b19bf-ce71-496f-96b7-32ffcbc8e51c" />
+
+
 ## 🚀 Features
 - Predicts the best crop based on input values:
   - Nitrogen (N)
