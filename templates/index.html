@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crop Prediction</title>
+</head>
+<body>
+    <h1>Crop Recommendation</h1>
+    <form action="/predict" method="post">
+        <label>Nitrogen:</label>
+        <input type="text" name="N"><br>
+        <label>Phosphorus:</label>
+        <input type="text" name="P"><br>
+        <label>Potassium:</label>
+        <input type="text" name="K"><br>
+        <label>Temperature:</label>
+        <input type="text" name="temperature"><br>
+        <label>Humidity:</label>
+        <input type="text" name="humidity"><br>
+        <label>pH:</label>
+        <input type="text" name="ph"><br>
+        <label>Rainfall:</label>
+        <input type="text" name="rainfall"><br>
+        <input type="submit" value="Predict">
+    </form>
+    {% if prediction %}
+        <h2>Predicted Crop: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
